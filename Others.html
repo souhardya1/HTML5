@@ -1,0 +1,94 @@
+
+<!-- iframe tag to show some other website inside our website -->
+
+<!-- audio tag to use a audio tag in html site(it has controls attribute for for media player) -->
+
+<!-- source tag inside audio tag to give the path of the audio file(it has type attribute which represents the audio file type) -->
+
+<!-- video tag works same as audio tag inside also there is a source tag works same -->
+
+<!-- in video and audio both tags there is a attribute autoplay if applies the user cant control  -->
+
+<!-- if we want to show pdf in our html page then we can use any of the 3 tags(embed,iframe,object) -->
+
+<!-- if we want to type a word which is same as any tag we have to use either &(for words); or &#(for numbers);  -->
+
+<!-- above also works for html symbols and emojis as well-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Others</title>
+</head>
+<body>
+    <!-- iframe -->
+    <h2>iframe</h2><hr><br>
+    <iframe src="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" height="500" width="500"></iframe>
+    <iframe src="https://developer.mozilla.org/en-US/docs/Web/CSS" height="500" width="500"></iframe>
+
+
+<!-- HTML Audio -->
+    <h2>Audio</h2><hr><br>
+    <audio controls>
+        <source src="E:\Python\Python\HTML\images\audio.mpeg" type="audio/mpeg">
+    </audio>
+
+
+<!-- HTML Video -->
+    <h2>Video</h2><hr><br>
+    <video controls width="500">
+        <source src="E:\Python\Python\HTML\images\video.mp4" type="video/mp4">
+    </video>
+
+
+<!--HTML PDF  -->
+    <h2>PDF</h2><hr><br>
+    <h4>embed PDF</h4>
+    <!-- embed -->
+    <embed src="E:\Python\Python\HTML\images\pdf1.pdf" type="application/pdf" width="300" height="300">
+    <h4>iframe PDF</h4>
+    <!-- iframe -->
+    <iframe src="E:\Python\Python\HTML\images\pdf2.pdf" height="300" width="300"></iframe>
+    <h4>object pdf</h4>
+    <!-- object -->
+    <object data="E:\Python\Python\HTML\images\pdf3.pdf" type="application/pdf" width="300" height="300"></object>
+
+
+<!-- Youtube Video -->
+    <h2>Youtube Video</h2><hr><br>
+    <iframe width="500" height="250" 
+    src="https://www.youtube.com/embed/YydcNBp8dyg" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+
+
+<!-- Google Maps -->
+    <h2>Google Maps</h2><hr><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!
+    1m12!1m3!1d3681.1822332411048!2d88.34505421545799!3d22.684259085125404!2m3!1f0!2f0!3
+    f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89c94be690b65%3A0xab1474e122e3417c!2sZenith%20Fast%20F
+    ood%20Shoppe!5e0!3m2!1sen!2sin!4v1609654347172!5m2!1sen!2sin" 
+    width="400" height="300" frameborder="0" style="border:0;"
+     allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+<!-- HTMl Entities,symbols and emojis -->
+    <h2>HTML Entities</h2><hr><br>
+    &lt;div&gt;<br>
+    &#60;img&#62;<br>
+    &#8508;<br>
+    &copy;<br>
+    &#128516;
+
+
+    
+
+    
+    
+    
+</body>
+</html>
