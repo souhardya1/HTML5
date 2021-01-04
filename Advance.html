@@ -1,0 +1,378 @@
+<!-- ol tag is for ordered list-->
+
+<!-- li tag content all the elements,type attribute is used for defining index type such as capital roman,numbers, alphabets etc.-->
+
+<!--ul tag is used for unordered list-->
+
+<!-- dt tag rpresents description list init we have dd tag to give the description of the above item -->
+
+<!-- table tag represents a table init td tag represents a row and tr tag represents a column (table tag contains a attribute border)(for heading use th tag)-->
+
+<!-- td tag  has a attribute colspan to combine columns(colspan='#number of columns to be combined') -->
+
+<!-- th tag  has a attribute rowspan to combine columns(rowspan='#number of columns to be combined') -->
+
+<!-- caption tag to use heading of the table -->
+
+<!-- div and  span self explanatory-->
+
+<!-- Image which is a link itself (check image folder and for mapping use website imagemap.org) -->
+
+<!-- Form tag has two attributes (method="GET/POST") and action="(in which file input should be sent") -->
+
+<!-- for dropdown we have to use select tag inside form tag -->
+
+<!-- we have to provide options in select tag and there is a attribute named selected for default selected -->
+
+<!-- optgroup tag inside select tag to group the drop downs -->
+
+<!-- There is a difference between checkbox type and radio type find yourself -->
+
+<!-- seo tags are the tags outside of body tag and inside of a head tag -->
+
+<!-- Favicon from realfavicongenerator.net -->
+
+<!-- viewport meta tag is for scaling in all type of devices -->
+
+
+
+
+<!DOCTYPE html>
+<head>
+    <title>Advance</title>
+    <meta name="description" content="This is a HTML advance tutorials ">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+
+<!-- FavIcon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+<!--Ordered List-->
+    <h2> Ordered List: </h2><hr><br>
+    <ol>
+        <li>Panther</li>
+        <li>Tiger</li>
+        <li>Elephant</li>
+        <li>Bear</li>
+        <li>Lion</li>
+    </ol>
+
+    <ol type="A">
+        <li>Panther</li>
+        <li>Tiger</li>
+        <li>Elephant</li>
+        <li>Bear</li>
+        <li>Lion</li>
+    </ol>
+
+    <ol type="a">
+        <li>Panther</li>
+        <li>Tiger</li>
+        <li>Elephant</li>
+        <li>Bear</li>
+        <li>Lion</li>
+    </ol>
+
+    <ol type="I">
+        <li>Panther</li>
+        <li>Tiger</li>
+        <li>Elephant</li>
+        <li>Bear</li>
+        <li>Lion</li>
+    </ol>
+
+    <ol type="i">
+        <li>Panther</li>
+        <li>Tiger</li>
+        <li>Elephant</li>
+        <li>Bear</li>
+        <li>Lion</li>
+    </ol>
+
+
+<!--  MultiDimensional Ordered List-->
+    <h3> MultiDimentional Ordered List:</h3><br>
+    <ol type="i">
+        <li>Code</li>
+            <ol >
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>HTML5 </li>
+            </ol>
+        <li>Games</li>
+            <ol>
+                <li>Witcher 3</li>
+                <li> Gta 5</li>
+                <li> Fifa</li>
+                <li> Valorant</li>
+                <li> Rainbow six siege</li>
+            </ol>
+        <li>Anime</li>
+            <ol>
+                <li> Naruto</li>
+                <li> Attack on Titan</li>
+                <li> Demon Slayer</li>
+            </ol>
+    </ol><br>
+
+
+<!--    Unordered List -->
+     <h2> UnOrdered List: </h2><hr><br>
+    <ul>
+        <li>Panther</li>
+        <li>Tiger</li>
+        <li>Elephant</li>
+        <li>Bear</li>
+        <li>Lion</li>
+    </ul>
+
+
+<!--  MultiDimensional UnOrdered List-->
+    <h3> MultiDimentional Ordered List:</h3><br>
+    <ul type="i">
+        <li>Code</li>
+            <ul >
+                <li>Python</li>
+                <li>Machine Learning</li>
+                <li>HTML5 </li>
+            </ul>
+        <li>Games</li>
+            <ul>
+                <li>Witcher 3</li>
+                <li> Gta 5</li>
+                <li> Fifa</li>
+                <li> Valorant</li>
+                <li> Rainbow six siege</li>
+            </ul>
+        <li>Anime</li>
+            <ul>
+                <li> Naruto</li>
+                <li> Attack on Titan</li>
+                <li> Demon Slayer</li>
+            </ul>
+    </ul>
+
+
+<!-- Description List -->
+    <h2>Description List</h2><hr><br>
+    <dl>
+        <dt>Coffee</dt>   
+            <dd>Contains Cafine</dd>
+
+        <dt>Milk</dt>
+         <dd>White Dairy liquor</dd>
+    </dl>
+
+<!-- HTML Table -->
+
+    <h2>Table</h2><hr><br>
+    <table border="1">
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+        </tr>
+
+        <tr>
+            <td>data A</td>
+            <td>data B</td>
+            <td>data C</td>
+        </tr>
+
+        <tr>
+            <td>data +</td>
+            <td>data *</td>
+            <td>data %</td>
+        </tr>
+    </table>
+
+    
+    <h2>Table</h2><hr><br>
+    <table border="1">
+        <caption>combined table</caption>
+        <tr>
+            <th>row 1</th>
+            <td colspan="2">data 1</td>
+            <td>data 3</td>
+        </tr>
+        
+        <tr>
+            <th rowspan="2">row 2</th>
+            <td>data A</td>
+            <td>data B</td>
+            <td>data C</td>
+        </tr>
+
+        <tr>
+            <th >row 3</th>
+            <td>data +</td>
+            <td>data *</td>
+            <td>data %</td>
+        </tr>
+    </table>
+
+
+<!-- Nested Table -->
+    <h2>Nested Table</h2><hr><br>
+    <table border="1">
+        <caption>Nested Table</caption>
+        <tr>
+            <th>row 1</th>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+        </tr>
+        
+        <tr>
+            <th>row 2</th>
+            <td>data A</td>
+            <td>data B</td>
+            <td>data C</td>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>a</td>
+                        <td>b</td>
+                        <td>c</td>
+                    </tr>
+
+                    <tr>
+                        <td>data +</td>
+                        <td>data *</td>
+                        <td>data %</td>
+                    </tr>
+                    
+
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>row 2</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+
+        </tr>
+    </table>
+
+
+<!-- div and span -->
+    <!-- div-->
+    <h2>Div and Span</h2><hr><br>
+    <div>
+        div always takes the full line thats why anything after that go to next line automatically
+    </div>
+    <div>
+        space for an ant and an elephant is same in div
+    </div>
+    <!-- span -->
+    <span>
+        span is opppositwe of div it takes the amount of space need for its element
+    </span>
+    <span>
+        ////space for an elemnt is small and space for an elephant is huge
+    </span>
+
+
+<!-- HTML Image Map -->
+    <h2>Link a Image</h2><hr><br>
+    <p>Click on the image</p>
+    <a href="https://www.python.org/" target="_blank">
+        <img src="images\python.jpg" >
+    </a>
+
+
+<!-- HTML Forms -->
+    <h2>HTML Forms</h2><hr><br>
+    <form >
+        Name:<br>
+        <input type="text"><br>
+        <input type="submit" > <br> <br>
+        <select name="" id="">
+            <optgroup label="Learnings">
+                <option value="">python</option>
+                <option value="" selected>html</option>
+                <option value="">css</option>
+            </optgroup>
+
+            <optgroup label="Games">
+                <option value="">CSGO</option>
+                <option value="" selected>Valorant</option>
+                <option value="">Rainbow Six Siege</option>
+            </optgroup>
+            
+        </select>
+    </form>
+
+
+<!-- HTML inputs -->
+    <h2>HTML Input types</h2><hr><br>
+    TEXT: <br>
+    <input type="text" placeholder="Enter Your Name" name="" id=""><br><br>
+    SUBMIT: <br>
+    <input type="submit" name="" id=""><br><br>
+    COLOUR: <br>
+    <input type="color" name="" id=""><br><br>
+    DATE: <br>
+    <input type="date" name="" id=""> <br><br>
+    EMAIL: <br>
+    <input type="email" name="" id=""><br><br>
+    HIDDEN: <br>
+    <input type="hidden" name="" id=""><br><br>
+    NUMBER: <br>
+    <input type="number" name="" id=""><br><br>
+    PASSWORD: <br>
+    <input type="password" name="" id=""><br><br>
+    RESET FORM: <br>
+    <input type="reset" name="" id=""><br><br>
+    TIME: <br>
+    <input type="time" name="" id=""><br><br>
+    URL: <br>
+    <input type="url" name="" id=""><br><br>
+    RANGE: <br>
+    <input type="range" min="10" max="10000"    name="" id=""><br><br>
+    FILE: <br>
+    <input type="file" multiple> <br><br>
+    RADIO: <br>
+    <input type="radio" name="games" id="" value="v"> Valorant <br>
+    <input type="radio" name="games" id="" value="c"> CSGO <br>
+    <input type="radio" name="games" id="" value="r"> Rainbow Six Siege <br><br>
+    CHECKBOX:  <br>
+    <input type="checkbox" name="languages" id=""> Python3.9
+    <input type="checkbox" name="languages" id=""> HTML5 
+    <input type="checkbox" name="languages" id=""> CSS3
+    TEXTAREA: <br>
+    <textarea placeholder="decription" name="" id="" cols="30" rows="30"></textarea><br><br>
+    <input type="image" src="images\submit.png" height="100" width="100" name="" id="">
+
+
+<!-- HTML Input Attribute() -->
+    <!-- NON NUMERICS -->
+        <!-- type=" " -->
+        <!-- value=" "  -->
+        <!-- readonly=" "  -->
+        <!-- disabled=" "  -->
+        <!-- size=" " -->
+        <!-- maxlength(max number of letters)=" " -->
+        <!-- placeholder(hint)=" " -->
+        <!-- autocomplete=" on/off" -->
+        <!-- name(backend)=" " -->
+        <!-- required -->
+        <!-- autofocus -->
+    
+    <!-- NUMERICS -->
+        <!-- min(number/range/date)=" " -->
+        <!-- max(number/range/date)=" "-->
+        <!-- step(number/range/date)=" " -->
+    
+
+</body>
+</html>
